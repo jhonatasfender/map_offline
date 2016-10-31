@@ -39,7 +39,8 @@ angular.module('starter').controller('MapController',
         $scope.map = {
           defaults: {
             tileLayer: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-            maxZoom: 18,
+            maxZoom: 19,
+            minZoom: 2,
             zoomControlPosition: 'bottomleft'
           },
           markers : {},
@@ -96,7 +97,7 @@ angular.module('starter').controller('MapController',
         $scope.map.center  = {
           lat : location.lat,
           lng : location.lng,
-          zoom : 16
+          zoom : 15
         };
 
         $scope.map.markers[locationKey] = {

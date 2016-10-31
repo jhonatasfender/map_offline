@@ -4,34 +4,34 @@ angular.module('starter').factory('LocationsService', [ function() {
 
   locationsObj.savedLocations = [
     {
-      name : "Washington D.C., USA",
-      lat : 38.8951100,
-      lng : -77.0363700
+      name : "Taguatinga",
+      lat : -15.8107,
+      lng : -48.0658
     },
     {
-      name : "London, England",
-      lat : 51.500152,
-      lng : -0.126236
+      name : "Ceilândia",
+      lat : -15.8214,
+      lng : -48.1142
     },
     {
-      name : "Paris, France",
-      lat : 48.864716,
-      lng : 2.349014
+      name : "Asa Sul ",
+      lat : -15.8044,
+      lng : -47.8949
     },
     {
-      name : "Moscow, Russia",
-      lat : 55.752121,
-      lng : 37.617664
+      name : "Asa Norte ",
+      lat : -15.7736,
+      lng : -47.8861
     },
     {
-      name : "Rio de Janeiro, Brazil",
-      lat : -22.970722,
-      lng : -43.182365
+      name : "SIA",
+      lat : -15.8153,
+      lng : -47.9586
     },
     {
-      name : "Sydney, Australia",
-      lat : -33.865143,
-      lng : 151.209900
+      name : "Guará",
+      lat : -15.8256,
+      lng : -47.9840
     }
 
   ];
